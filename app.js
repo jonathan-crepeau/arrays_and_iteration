@@ -100,3 +100,72 @@
 //   }
 // }
 
+
+
+// ANCHOR - Array Method Exercises
+
+// SECTION Exercise #1: Find an array method that will tell you the 'indexOf' the string cherries. Then write a for loop that logs the index of each array element with the use of the 'indexOf' method. Lastly, reverse the order of the array using a built-in array method:
+
+// const fruit = ["apple", "oranges", "banana", "grapes", "cherries", "blueberries", "kiwi"];
+
+// console.log(fruit.indexOf('cherries'));
+// console.log('----------');
+
+// for (let i = 0; i < fruit.length; i++) {
+//   console.log(fruit[i] + ' has the index of ' + fruit.indexOf(fruit[i]));
+// }
+// console.log('----------');
+
+// console.log(fruit);
+// fruit.reverse();
+// console.log(fruit);
+
+
+// SECTION Exercise #2:
+// Make an array that contains two of your favorite tv shows or movies
+// .push() another TV show or movie into the array
+// research the javascript array method .sort()
+// save a .sort()ed version of the array to another variable, and console.log the new array
+// .push() another TV show or movie into the sorted array
+// research the javascript array method .reverse()
+// save a .reverse()ed version of the array to another variable, and console log the reversed result
+// research the array method .pop() and use it on your array. What does it do?
+// research the array methods .shift() and .unshift(). How do they differ from .push() and .pop()?
+// research the array methods .slice() and .splice(). What do they do? How do they differ? 
+
+// const tvShows = ["Legend of Korra", "Avatar the Last Airbender"];
+// tvShows.push('Big Little Lies');
+
+// const sortedTvShows = tvShows.sort()
+// console.log(sortedTvShows);
+// sortedTvShows.push('Broad City');
+
+// const reversedTvShows = sortedTvShows.reverse();
+// console.log(reversedTvShows);
+
+// reversedTvShows.pop();
+// console.log(reversedTvShows);
+// reversedTvShows.push('Avatar the Last Airbender');
+
+// const shifted = reversedTvShows.shift();
+// console.log(shifted)
+// console.log(reversedTvShows);
+
+// reversedTvShows.unshift('Broad City');
+// console.log(reversedTvShows);
+
+
+// SECTION Exercise #3:
+// What would you write to access "Waldo"?
+// What would you write to access "Jacc"?
+// Change "Baked Goods" to "No One"
+// Research the .splice() method and remove "Eggbert"
+
+// const whereIsWaldo = [["Timmy", "Frank"], "Eggbert", ["Lucinda", "Jacc", "Neff", "Snoop"], ["Petunia", "Baked Goods", "Waldo"]];
+
+// console.log(whereIsWaldo[3][2]);
+// console.log(whereIsWaldo[2][1]);
+// whereIsWaldo[3][1] = "No One";
+// console.log(whereIsWaldo);
+// whereIsWaldo.splice(1, 1);
+// console.log(whereIsWaldo);
